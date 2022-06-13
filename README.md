@@ -1,8 +1,10 @@
-## Tecnologias utilizadas
-Laravel - <https://laravel.com/><br/>
-Quasar Dev - <https://quasar.dev/><br/>
+## Requerimentos
+Laravel - <https://laravel.com/><br/> - Versão ^8
+Quasar - <https://quasar.dev/><br/> Versão ^2
 Composer - <https://getcomposer.org/><br/>
+NPM - <https://www.npmjs.com/> Versão: ^8
 MySQL -<https://www.mysql.com/><br/>
+
 
 ## Como testar
 
@@ -14,6 +16,7 @@ cd DesafioBruno
 ```
 
 #### Fazer clone deste repositório
+
 O passo abaixo criará um diretório chamado feegow,  dentro do diretório criando anteriormente (DesafioBruno)
 
 ```console
@@ -41,7 +44,7 @@ vendor/bin/sail up -d
 #### Executar migration para criação das tabelas
 
 ```bash
-docker exec -it back-end-laravel.test-1 php artisan migrate
+docker exec -it back-end-feegow-1 php artisan migrate
 ```
 
 #### Voltar para o diretório principal
@@ -59,7 +62,7 @@ Entrar no diretório front-end, executar o composer para instalação dos pacote
 
 ```bash
 cd front-end/
-composer install
+npm install
 quasar dev
 ```
 
