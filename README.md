@@ -1,8 +1,8 @@
-##Tecnologias utilizadas
-Laravel - <https://laravel.com/>
-Quasar Dev - <https://quasar.dev/>
-Composer - <https://getcomposer.org/>
-MySQL -<https://www.mysql.com/>
+## Tecnologias utilizadas
+Laravel - <https://laravel.com/><br/>
+Quasar Dev - <https://quasar.dev/><br/>
+Composer - <https://getcomposer.org/><br/>
+MySQL -<https://www.mysql.com/><br/>
 
 ## Como testar
 
