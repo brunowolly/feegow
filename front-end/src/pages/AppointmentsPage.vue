@@ -26,14 +26,14 @@ export default defineComponent({
         name: "specialty_id",
         field: "specialty_id",
         label: "specialty_id",
-        align: "left",
+        align: "right",
         sortable: true,
       },
       {
         name: "professional_id",
         field: "professional_id",
         label: "professional_id",
-        align: "left",
+        align: "right",
         sortable: true,
       },
       {
@@ -61,14 +61,14 @@ export default defineComponent({
         name: "birthdate",
         field: "birthdate",
         label: "Aniversário",
-        align: "birthdate",
+        align: "left",
         sortable: true,
       },
       {
         name: "date_time",
         field: "date_time",
         label: "date_time",
-        align: "date_time",
+        align: "left",
         sortable: true,
       },
     ];

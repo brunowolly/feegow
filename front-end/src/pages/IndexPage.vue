@@ -1,9 +1,11 @@
 <template>
   <q-page padding>
     <div class="q-pa-md">
-      <div class="row q-col-gutter-none">
-        <div class="flex flex-center">Consulta de</div>
-        &nbsp;
+      <div class="row justify-center">
+        <div class="col-1 flex flex-center bg-primary text-white inline">
+          Consulta de
+        </div>
+        <div>&nbsp;</div>
         <div class="col-3">
           <q-select
             filled
@@ -12,7 +14,6 @@
             option-label="nome"
             option-value="especialidade_id"
             label="Selecione a especialidade"
-            @update:model-value="(val) => showChannel(val)"
           >
             <template v-slot:no-option>
               <q-item>
@@ -20,6 +21,15 @@
               </q-item>
             </template>
           </q-select>
+        </div>
+
+        <div class="col-1 flex flex-center">
+          <q-btn
+            rounded
+            color="secondary"
+            label="Agendar"
+            @click="showChannel(model)"
+          />
         </div>
       </div>
     </div>
@@ -316,7 +326,14 @@ export default defineComponent({
       form.value = [];
     };
 
+    const teste = (value) => {
+      try {
+        alert(value);
+      } catch (error) {}
+    };
+
     return {
+      teste,
       model,
       options,
       especialidade_id,

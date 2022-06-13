@@ -7,7 +7,6 @@ export default function professionalspecialtiesService() {
 
   return {
     list,
-    post,
     getById,
   };
 }

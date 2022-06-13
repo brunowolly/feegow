@@ -3,7 +3,7 @@
     <q-header elevated>
       <q-toolbar>
         <q-toolbar-title>
-          <center>Clinica Appointments</center>
+          <center>Agendamentos da Clínica</center>
         </q-toolbar-title>
       </q-toolbar>
     </q-header>

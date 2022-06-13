@@ -3,7 +3,7 @@
     <q-header elevated>
       <q-toolbar>
         <q-toolbar-title>
-          <center>Clinica</center>
+          <center>Clínica</center>
         </q-toolbar-title>
       </q-toolbar>
     </q-header>
