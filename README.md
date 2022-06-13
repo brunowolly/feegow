@@ -54,3 +54,11 @@ cd front-end/
 composer install
 quasar dev
 ```
+
+### Para acessar a aplicação
+
+Feegow - App <http://localhost:8081>
+
+### Para ver os agendamentos
+
+Feegow - Agendamentos <http://localhost:8081/appointment>

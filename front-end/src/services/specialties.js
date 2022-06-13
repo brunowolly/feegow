@@ -5,7 +5,6 @@ export default function specialtiesService() {
 
   return {
     list,
-    post,
     getById,
   };
 }

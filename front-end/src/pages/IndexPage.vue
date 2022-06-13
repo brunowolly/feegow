@@ -305,19 +305,11 @@ export default defineComponent({
         console.log(error);
       }
     };
-    const showNotif = async () => {
-      $q.notify({
-        type: "positive",
-        message: "Agendamento enviado",
-        position: "bottom-right",
-        timeout: 500,
-      });
-    };
 
     const onSubmit = async () => {
       try {
         await post(form.value);
-        showNotif();
+        showNotify("Agendamento enviado com sucesso", "positive");
       } catch (error) {
         showNotify("Action error: " + error.message, "warning");
       }

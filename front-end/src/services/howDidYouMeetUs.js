@@ -5,7 +5,5 @@ export default function howDidYouMeetUsService() {
 
   return {
     listHow,
-    post,
-    getById,
   };
 }
