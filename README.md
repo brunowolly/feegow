@@ -9,24 +9,32 @@ MySQL -<https://www.mysql.com/><br/>
 #### Criar um diretório e entrar no mesmo
 
 ```bash
-mkdir feegow
-cd fegoow
+mkdir DesafioBruno
+cd DesafioBruno
 ```
 
 #### Fazer clone deste repositório
+O passo abaixo criará um diretório chamado feegow,  dentro do diretório criando anteriormente (DesafioBruno)
 
 ```console
 git clone git@github.com:brunowolly/feegow.git
+```
+
+##### Entre no diretório criado
+
+```
+cd feegow
 ```
 
 <br/>
 
 ### Como executar o back-end
 
-#### Entrar no diretório back-end e executar o sail
+#### Executar os seguintes passos
 
 ```bash
 cd back-end
+composer install
 vendor/bin/sail up -d
 ````
 
