@@ -1,8 +1,8 @@
 ## Requerimentos
-Laravel - <https://laravel.com/><br/> Versão ^8
-Quasar - <https://quasar.dev/><br/> Versão ^2
+Laravel - <https://laravel.com/> Versão ^8<br/>
+Quasar - <https://quasar.dev/> Versão ^2 <br/>
 Composer - <https://getcomposer.org/><br/>
-NPM - <https://www.npmjs.com/> Versão ^8
+NPM - <https://www.npmjs.com/> Versão ^8<br/>
 MySQL -<https://www.mysql.com/><br/>
 
 
